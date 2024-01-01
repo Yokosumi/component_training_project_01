@@ -1,3 +1,4 @@
+import { IoMdArrowDropdown } from 'react-icons/io'
 export const DropDown = () => {
     return (
         <>
@@ -5,8 +6,9 @@ export const DropDown = () => {
                 <div
                     tabIndex={0}
                     role="button"
-                    className="btn btn-outline m-1 text-xl text-white before:content-['->']"
+                    className="btn btn-outline m-1 text-xl text-white"
                 >
+                    <IoMdArrowDropdown />
                     Layouts
                 </div>
                 <ul
