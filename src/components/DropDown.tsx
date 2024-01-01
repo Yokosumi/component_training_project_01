@@ -5,7 +5,7 @@ export const DropDown = () => {
                 <div
                     tabIndex={0}
                     role="button"
-                    className="btn btn-outline m-1 text-xl text-white"
+                    className="btn btn-outline m-1 text-xl text-white before:content-['->']"
                 >
                     Layouts
                 </div>
