@@ -5,7 +5,7 @@ export const DropDown = () => {
                 <div
                     tabIndex={0}
                     role="button"
-                    className="btn m-1 text-xl text-white hover:text-gray-400"
+                    className="btn btn-outline m-1 text-xl text-white"
                 >
                     Layouts
                 </div>
@@ -13,13 +13,13 @@ export const DropDown = () => {
                     tabIndex={0}
                     className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box "
                 >
-                    <li className="hover:text-gray-400">
+                    <li>
                         <a>Generic</a>
                     </li>
-                    <li className="hover:text-gray-400">
+                    <li>
                         <a>Contact</a>
                     </li>
-                    <li className="hover:text-gray-400">
+                    <li>
                         <a>Elements</a>
                     </li>
                 </ul>

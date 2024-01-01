@@ -1,4 +1,5 @@
 import { DropDown } from './DropDown'
+import { SignUpButton } from './SignUpButton'
 export const Nav = () => {
     return (
         <>
@@ -7,7 +8,9 @@ export const Nav = () => {
                 <li>
                     <DropDown />
                 </li>
-                <li>Sign Up</li>
+                <li>
+                    <SignUpButton />
+                </li>
             </ul>
         </>
     )
