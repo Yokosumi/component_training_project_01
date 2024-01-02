@@ -1,13 +1,13 @@
-import new_york_city from '/public/images/new_york_city.jpg'
+type Props = {
+    children: React.ReactNode
+}
 
-export const Banner = () => {
+export const Banner = ({ children }: Props) => {
     return (
         <>
-            <img
-                className="w-screen h-screen blur-sm"
-                src={new_york_city}
-                alt="New York City"
-            />
+            <div className="flex justify-center items-center w-screen h-screen bg-cover bg-[url('/images/new_york_city.jpg')]">
+                {children}
+            </div>
         </>
     )
 }
